@@ -138,7 +138,7 @@ $(document).ready(function(){
 function kohlrabi_status_chage(){/*大頭菜狀態變化*/
 	if(status_count<status_array.length-1){
 		status_count+=1;
-		kohlrabi_img.src=`/images/狀態 (${status_count+1}).png`;
+		kohlrabi_img.src=`images/狀態 (${status_count+1}).png`;
 
 		//似乎因為function內的function的執行序的細節，必須重抓一次?
 		kohlrabi_status=document.getElementById('kohlrabi_status');
@@ -155,7 +155,7 @@ function kohlrabi_status_chage(){/*大頭菜狀態變化*/
 
 function kohlrabi_status_reset(){/*大頭菜狀態重置*/
 	
-	kohlrabi_img.src='/images/狀態 (1).png';
+	kohlrabi_img.src='images/狀態 (1).png';
 
 	//似乎因為function內的function的執行序的細節，必須重抓一次?
 	kohlrabi_status=document.getElementById('kohlrabi_status');
