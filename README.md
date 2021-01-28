@@ -1,0 +1,2 @@
+# kohlrabi_step_on_landmines
+這是一個為了練習而做的踩地雷小遊戲
