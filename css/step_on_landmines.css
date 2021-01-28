@@ -1,0 +1,123 @@
+#wrapper {
+  font-family: Microsoft JhengHei;
+}
+
+#wrapper #header {
+  width: 100%;
+  background: #DDDDDD;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#wrapper #header h1 {
+  display: inline;
+}
+
+#wrapper #header span {
+  font-size: 16px;
+}
+
+#wrapper #inner_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#wrapper #inner_wrapper #main {
+  display: table;
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+#wrapper #inner_wrapper #main #status {
+  width: 100%;
+  background: #000;
+  color: white;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#wrapper #inner_wrapper #main #basic li {
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  background: #DDDDDD;
+  border: 1px solid gray;
+}
+
+#wrapper #inner_wrapper #main #control_bar {
+  float: right;
+  margin: 10px auto 0;
+  position: relative;
+}
+
+#wrapper #inner_wrapper #main #control_bar #map_size {
+  position: absolute;
+  top: 23px;
+  left: 0;
+  width: 67.5px;
+  background: #efefef;
+  border: 1px solid;
+  display: none;
+}
+
+#wrapper #inner_wrapper #main #control_bar #map_size li {
+  line-height: 1.6;
+}
+
+#wrapper #inner_wrapper #main #control_bar #map_size li:hover {
+  background: gray;
+}
+
+#wrapper #inner_wrapper #kohlrabi_box {
+  float: left;
+  margin: 10px;
+  width: 275px;
+}
+
+#wrapper #inner_wrapper #kohlrabi_box #status_box {
+  line-height: 1.6;
+  border: 6px double gray;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 25px;
+}
+
+#wrapper #inner_wrapper #kohlrabi_box #status_box ul li span {
+  float: right;
+}
+
+#wrapper #footer {
+  width: 100%;
+  background: #DDDDDD;
+  clear: both;
+  text-align: center;
+  line-height: 2.6;
+  font-size: 14px;
+}
+
+.material-icons {
+  color: #9A6364;
+  margin: -1px;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=step_on_landmines.css.map */
